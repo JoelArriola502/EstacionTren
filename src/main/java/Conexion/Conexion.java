@@ -31,6 +31,7 @@ public class Conexion {
             JOptionPane.showMessageDialog(null,"Se realizo la conexion con exito a la BASE DE DATOS");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,"Error en la conexion "+ e.toString());
+            System.out.println("un mensaje");
         }
         
         return conexion;
