@@ -32,6 +32,7 @@ public class Conexion {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,"Error en la conexion "+ e.toString());
             System.out.println("un mensaje");
+             System.out.println("Mensaje 2");
         }
         
         return conexion;
